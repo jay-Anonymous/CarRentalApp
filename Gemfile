@@ -7,19 +7,19 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.1'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -32,22 +32,22 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Bootstrap to extend CSS style
 gem 'bootstrap-sass', '3.3.7'
 # Use test gem
-gem 'rails-controller-testing'
+gem 'rails-controller-testing', '>= 1.0.3'
 # Use jQuery library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.2'
 # Use faker to generate sample users
 gem 'faker', '1.7.3'
 # Use for Pagination
 gem 'will_paginate',           '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
 # Use ransack for Search 
-gem 'ransack'
+gem 'ransack', '>= 1.8.4'
 # Use for backgroud processing
-gem 'sidekiq'
+gem 'sidekiq', '>= 5.0.5'
 # Redis-backed Ruby library for creating background jobs
-gem 'resque'
+gem 'resque', '>= 2.0.0'
 # A light-weight job scheduling system built on top of resque
-gem 'resque-scheduler'
+gem 'resque-scheduler', '>= 4.3.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -58,13 +58,13 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
+  gem 'capybara', '~> 2.15', '>= 2.15.2'
   gem 'selenium-webdriver'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.6.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
