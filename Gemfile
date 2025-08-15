@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -41,7 +41,7 @@ gem 'faker', '1.7.3'
 gem 'will_paginate',           '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
 # Use ransack for Search 
-gem 'ransack'
+gem 'ransack', '>= 1.8.4'
 # Use for backgroud processing
 gem 'sidekiq'
 # Redis-backed Ruby library for creating background jobs
